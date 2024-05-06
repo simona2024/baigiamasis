@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import NagaiPages from './Pages/Nagai/NagaiPages'
+import PlaukaiPages from './Pages/Plaukai/PlaukaiPages'
+import VeidasPages from './Pages/Veidas/VeidasPages'
+import KvepalaiPages from './Pages/Kvepalai/KvepalaiPages'
+import { Route, Routes } from 'react-router-dom'
+import PageHeader from './components/PageHeader/PageHeader'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+  <>
+      <PageHeader />
+      <Routes>
+          <Route path='/' element={<h1>Kosmetika</h1>} />
+          <Route path='/nagai' element={<NagaiPages />} />
+          <Route path='/plaukai' element={<PlaukaiPages />} /> 
+          <Route path='/nagai' element={<NagaiPages />} />
+          <Route path='/veidas' element={<VeidasPages />} />
+          <Route path='/kvepalai' element={<KvepalaiPages />} />
+          <Route path='*' element={<h1>404 page not found</h1>} />
+      </Routes> 
+  </>
+     
+    
+  )
+}
+export default App
