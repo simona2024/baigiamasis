@@ -13,13 +13,16 @@ const PageHeader = () => {
             <NavLink to="/plaukai">Plaukai</NavLink>
             </li>
             <li>
-            <NavLink to="/nagai">Nagaiai</NavLink>
+            <NavLink to="/nagai">Nagai</NavLink>
             </li>
             <li>
-            <NavLink to="/veidas">veidas</NavLink>
+            <NavLink to="/kremai">Kremai</NavLink>
             </li>
             <li>
             <NavLink to="/kvepalai">Kvepalai</NavLink>
+            
+                {/* <NavLink to="/kvepalai/kvepalas">Kvepalas</NavLink> */}
+            
             </li>
         </ul>
         </nav>
