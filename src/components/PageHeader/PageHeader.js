@@ -11,15 +11,27 @@ const PageHeader = () => {
             </li>
             <li>
             <NavLink to="/plaukai">Plaukai</NavLink>
+                <ul>
+                    <li>
+                        <NavLink to="/sampunai">Šampunai</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/balzamai">Balzamaii</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/aliejai">Aliejai</NavLink>
+                    </li>
+                </ul>
             </li>
             <li>
-            <NavLink to="/nagai">Nagaiai</NavLink>
+            <NavLink to="/nagai">Nagai</NavLink>
             </li>
             <li>
-            <NavLink to="/veidas">veidas</NavLink>
+            <NavLink to="/kremai">Kremai</NavLink>
             </li>
             <li>
             <NavLink to="/kvepalai">Kvepalai</NavLink>
+            
             </li>
         </ul>
         </nav>

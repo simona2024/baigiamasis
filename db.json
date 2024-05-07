@@ -1,1 +1,156 @@
-{}
+{
+    "kvepalai": [
+        {
+            "id": "1",
+          "pavadinimas": "Floral Garden kvepalai",
+          "gamintojas": "NatureScents",
+          "aprasymas": "Šie Floral Garden kvepalai praturtinti žiedų ir vaisių aromatais, suteikia jums žavesio ir šviežumo jausmą visą dieną.",
+          "kaina": 29.99,
+          "kategorija": "Kvepalai"
+        },
+        {
+            "id": "2",
+          "pavadinimas": "Elegant Elixir kvepalai",
+          "gamintojas": "LuxuryFragrances",
+          "aprasymas": "Šie Elegant Elixir kvepalai sujungia subtilius gėlių ir medžio aromatus, suteikdami jums elegancijos ir prabangos pojūtį.",
+          "kaina": 39.99,
+          "kategorija": "Kvepalai"
+        },
+        {
+            "id": "3",
+          "pavadinimas": "Citrus Splash kvepalai",
+          "gamintojas": "FreshScents",
+          "aprasymas": "Šie Citrus Splash kvepalai su šviežiais citrusinių vaisių akcentais suteikia jums energijos ir gyvybingumo visą dieną.",
+          "kaina": 24.99,
+          "kategorija": "Kvepalai"
+        }
+      ],
+      "kremai": [
+        {
+            "id": "1",
+          "pavadinimas": "Drėkinantis veido kremas su hialurono rūgštimi",
+          "gamintojas": "HyaluronicBeauty",
+          "aprasymas": "Šis drėkinantis veido kremas su hialurono rūgštimi suteikia intensyvų drėkinimą ir maitina odą. Jis padeda kovoti su sausumu ir sumažina raukšles.",
+          "kaina": 24.99,
+          "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "2",
+        "pavadinimas": "Drėkinantis veido kremas su hialurono rūgštimi",
+        "gamintojas": "HyaluronicBeauty",
+        "aprasymas": "Šis drėkinantis veido kremas su hialurono rūgštimi suteikia intensyvų drėkinimą ir maitina odą. Jis padeda kovoti su sausumu ir sumažina raukšles.",
+        "kaina": 24.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "3",
+        "pavadinimas": "Raminantis veido kremas su ramunėlių ekstraktu",
+        "gamintojas": "ChamomileCare",
+        "aprasymas": "Šis raminantis veido kremas su ramunėlių ekstraktu minkština ir raminą veido odą, padeda sumažinti paraudimą ir sudirgimą.",
+        "kaina": 19.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "4",
+        "pavadinimas": "Anti-age veido kremas su kolageno kompleksu",
+        "gamintojas": "CollagenBeauty",
+        "aprasymas": "Šis anti-age veido kremas su kolageno kompleksu stiprina odą ir atkuria jos elastingumą, padeda sumažinti raukšles ir pagerina odos tekstūrą.",
+        "kaina": 29.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "4",
+        "pavadinimas": "Maitinantis veido kremas su avokadų aliejumi",
+        "gamintojas": "AvocadoCare",
+        "aprasymas": "Šis maitinantis veido kremas su avokadų aliejumi intensyviai maitina ir drėkina odą, paliekant ją minkštą ir švelnią.",
+        "kaina": 21.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "4",
+        "pavadinimas": "Matuojantis veido kremas su salicilo rūgštimi",
+        "gamintojas": "SalicylicSolutions",
+        "aprasymas": "Šis matuojantis veido kremas su salicilo rūgštimi švelniai valo poras ir maitina odą, padeda kovoti su spuogais ir nešvarumais.",
+        "kaina": 17.49,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "5",
+        "pavadinimas": "Apšvietėjas veido kremas su vitaminu C",
+        "gamintojas": "VitaminCCare",
+        "aprasymas": "Šis apšvietėjas veido kremas su vitaminu C suteikia odai švytėjimo efektą ir padeda sumažinti pigmentaciją bei nepageidaujamus spuogų pėdsakus.",
+        "kaina": 26.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "6",
+        "pavadinimas": "Gilių raukšlių veido kremas su retinoliu",
+        "gamintojas": "RetinolRevive",
+        "aprasymas": "Šis gilių raukšlių veido kremas su retinoliu stimuliuoja odos ląstelių atsinaujinimą, padeda sumažinti raukšles ir pagerina odos struktūrą.",
+        "kaina": 32.99,
+        "kategorija": "Veido priemonės"
+        },
+        {
+            "id": "7",
+        "pavadinimas": "Drėkinantis veido kremas su aloe vera",
+        "gamintojas": "AloeGlow",
+        "aprasymas": "Šis drėkinantis veido kremas su aloe vera suteikia odai gaivumą ir drėkinimą, padeda sumažinti dirginimą ir odos sausumą.",
+        "kaina": 20.49,
+        "kategorija": "Veido priemonės"
+        }
+        
+      ],
+      "nagai": [
+        {
+            "id": "1",
+          "pavadinimas": "Švelnus nagų stiprintuvas su avokadų aliejumi",
+          "gamintojas": "AvocadoNails",
+          "aprasymas": "Šis nagų stiprintuvas su avokadų aliejumi suteikia nagams papildomos mitybos, padeda stiprinti jų struktūrą ir saugo nuo skilimo.",
+          "kaina": 8.99,
+          "kategorija": "Nagų priemonės"
+        },
+        {
+            "id": "2",
+          "pavadinimas": "Nagų lakas su ilgaamžišku efektu",
+          "gamintojas": "LongLastingNails",
+          "aprasymas": "Šis nagų lakas turi ilgaamžiško efekto formulę, kuri užtikrina ilgalaikį blizgesį ir spalvos išliekamumą.",
+          "kaina": 6.49,
+          "kategorija": "Nagų priemonės"
+        },
+        {
+            "id": "3",
+          "pavadinimas": "Nagų aliejus su vitaminu E",
+          "gamintojas": "VitaminENails",
+          "aprasymas": "Šis nagų aliejus su vitaminu E maitina ir stiprina nagus, padeda kovoti su sausumu ir lūžinėjimu, paliekant nagus minkštus ir lankstius.",
+          "kaina": 10.99,
+          "kategorija": "Nagų priemonės"
+        }
+      ],
+      "plaukai": [
+        {
+            "id": "1",
+          "pavadinimas": "Švelnus plaukų šampūnas su argano aliejumi",
+          "gamintojas": "ArganCosmetics",
+          "aprasymas": "Šis šampūnas su argano aliejumi švelniai valo plaukus, paliekant juos minkštus ir blizgančius. Argano aliejus maitina plaukus ir palaiko jų drėgmės balansą.",
+          "kaina": 15.99,
+          "kategorija": "Plaukų priemonės"
+        },
+        {
+            "id": "2",
+          "pavadinimas": "Gydantis plaukų kondicionierius su keratinu",
+          "gamintojas": "HairCare Ltd.",
+          "aprasymas": "Šis kondicionierius su keratinu skirtas gydyti pažeistus plaukus, sustiprinant jų struktūrą ir atkuriant natūralų blizgesį. Tinka visiems plaukų tipams.",
+          "kaina": 12.49,
+          "kategorija": "Plaukų priemonės"
+        },
+        {
+            "id": "3",
+          "pavadinimas": "Drėkinantis plaukų serumas su hialurono rūgštimi",
+          "gamintojas": "HyaluronicBeauty",
+          "aprasymas": "Šis serumas su hialurono rūgštimi suteikia intensyvų drėkinimą ir maitina plaukus iš vidaus. Padeda kovoti su sausumu ir plaukų pažeidimais.",
+          "kaina": 19.99,
+          "kategorija": "Plaukų priemonės"
+        }
+      ]
+    
+}
