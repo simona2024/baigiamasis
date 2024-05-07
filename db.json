@@ -126,14 +126,15 @@
           "kategorija": "Nagų priemonės"
         }
       ],
-      "plaukai": [
+      "hairProducts": [
         {
             "id": "1",
           "pavadinimas": "Švelnus plaukų šampūnas su argano aliejumi",
           "gamintojas": "ArganCosmetics",
           "aprasymas": "Šis šampūnas su argano aliejumi švelniai valo plaukus, paliekant juos minkštus ir blizgančius. Argano aliejus maitina plaukus ir palaiko jų drėgmės balansą.",
           "kaina": 15.99,
-          "kategorija": "Plaukų priemonės"
+          "hairCategoryId": "l"
+
         },
         {
             "id": "2",
@@ -141,7 +142,7 @@
           "gamintojas": "HairCare Ltd.",
           "aprasymas": "Šis kondicionierius su keratinu skirtas gydyti pažeistus plaukus, sustiprinant jų struktūrą ir atkuriant natūralų blizgesį. Tinka visiems plaukų tipams.",
           "kaina": 12.49,
-          "kategorija": "Plaukų priemonės"
+          "hairCategoryId": "2"
         },
         {
             "id": "3",
@@ -149,8 +150,101 @@
           "gamintojas": "HyaluronicBeauty",
           "aprasymas": "Šis serumas su hialurono rūgštimi suteikia intensyvų drėkinimą ir maitina plaukus iš vidaus. Padeda kovoti su sausumu ir plaukų pažeidimais.",
           "kaina": 19.99,
-          "kategorija": "Plaukų priemonės"
+          "hairCategoryId": "3"
+        },
+        {
+            "id": "4",
+            "pavadinimas": "Švelnus plaukų šampūnas su argano aliejumi",
+            "gamintojas": "ArganCosmetics",
+            "aprasymas": "Šis šampūnas su argano aliejumi švelniai valo plaukus, paliekant juos minkštus ir blizgančius. Argano aliejus maitina plaukus ir palaiko jų drėgmės balansą.",
+            "kaina": 15.99,
+            "hairCategoryId": "l"
+        },
+        {
+            "id": "5",
+            "pavadinimas": "Gydantis plaukų kondicionierius su keratinu",
+            "gamintojas": "HairCare Ltd.",
+            "aprasymas": "Šis kondicionierius su keratinu skirtas gydyti pažeistus plaukus, sustiprinant jų struktūrą ir atkuriant natūralų blizgesį. Tinka visiems plaukų tipams.",
+            "kaina": 12.49,
+            "hairCategoryId": "2"
+        },
+        {
+            "id": "6",
+            "pavadinimas": "Drėkinantis plaukų serumas su hialurono rūgštimi",
+            "gamintojas": "HyaluronicBeauty",
+            "aprasymas": "Šis serumas su hialurono rūgštimi suteikia intensyvų drėkinimą ir maitina plaukus iš vidaus. Padeda kovoti su sausumu ir plaukų pažeidimais.",
+            "kaina": 19.99,
+            "hairCategoryId": "3"
+        },
+        {
+            "id": "7",
+            "pavadinimas": "Regeneruojantis plaukų aliejus su avokadu",
+            "gamintojas": "AvocadoCare",
+            "aprasymas": "Šis regeneruojantis plaukų aliejus su avokadu suteikia intensyvų maitinimą ir atstatymą. Tinka sausiems ir pažeistiems plaukams.",
+            "kaina": 14.99,
+            "hairCategoryId": "3"
+        },
+        {
+            "id": "8",
+            "pavadinimas": "Stiprinantis plaukų šampūnas su biotinu",
+            "gamintojas": "BiotinHair",
+            "aprasymas": "Šis stiprinantis plaukų šampūnas su biotinu padeda sustiprinti plaukus nuo šaknų iki galiukų, skatindamas jų augimą ir sveikatą.",
+            "kaina": 11.99,
+            "hairCategoryId": "1"
+        },
+        {
+            "id": "9",
+            "pavadinimas": "Atstatomasis plaukų kaukė su kokosų aliejumi",
+            "gamintojas": "CoconutCare",
+            "aprasymas": "Ši atstatomoji plaukų kaukė su kokosų aliejumi suteikia maitinimą ir glotnumą, atkuria pažeistus plaukus ir palieka juos kvapniai kvepiančius.",
+            "kaina": 17.49,
+            "hairCategoryId": "2"
+        },
+        {
+            "id": "10",
+            "pavadinimas": "Apimties suteikiantis plaukų putos su kolageno kompleksu",
+            "gamintojas": "CollagenVolume",
+            "aprasymas": "Šios apimties suteikiančios plaukų putos su kolageno kompleksu padeda plaukams įgyti apimtį ir stilių, neapsunkindamos jų.",
+            "kaina": 10.99,
+            "hairCategoryId": "2"
+        },
+        {
+            "id": "11",
+            "pavadinimas": "Raminamasis plaukų eliksyras su ramunėlėmis",
+            "gamintojas": "ChamomileElixir",
+            "aprasymas": "Šis raminamasis plaukų eliksyras su ramunėlėmis suteikia plaukams ramybę ir švelnumą, paliekant juos minkštus ir lengvai valomus.",
+            "kaina": 16.99,
+            "hairCategoryId": "3"
+        },
+        {
+            "id": "12",
+            "pavadinimas": "Keratino kapsulės stipriems plaukams",
+            "gamintojas": "KeratinCapsules",
+            "aprasymas": "Šios keratino kapsulės skirtos stiprinti plaukus nuo vidaus, padedant jiems išlaikyti sveiką struktūrą ir blizgesį.",
+            "kaina": 21.99,
+            "hairCategoryId": "3"
+        },
+        {
+            "id": "13",
+            "pavadinimas": "Drėkinamasis plaukų purškalas su aloe vera",
+            "gamintojas": "AloeSpray",
+            "aprasymas": "Šis drėkinamasis plaukų purškalas su aloe vera suteikia intensyvų drėkinimą ir atgaivina pažeistus plaukus, paliekant juos švelnius ir lankstius.",
+            "kaina": 13.79,
+            "hairCategoryId": "2"
+        }
+      ],
+      "hairCategories": [
+        {
+            "id": "1",
+            "name": "sampunai"
+        },
+        {
+            "id": "2",
+            "name": "balzamai"
+        },
+        {
+            "id": "3",
+            "name": "aliejai"
         }
       ]
-    
 }

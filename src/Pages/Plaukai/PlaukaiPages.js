@@ -10,7 +10,7 @@ const PlaukaiPages = () => {
   
   useEffect(() => {
     const getPlaukai = async () => {
-      const res = await fetch('http://localhost:3000/plaukai')
+      const res = await fetch('http://localhost:3000/hairProducts')
       const data = await res.json();
 
       setPlaukai(data)
