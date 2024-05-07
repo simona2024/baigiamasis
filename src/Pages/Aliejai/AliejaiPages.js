@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from "react"
 import { API_URL } from "../../config"
 import { Link } from 'react-router-dom'
-import AliejaiList from '../../components/Balzamai/BalzamaiList'
+import AliejaiList from '../../components/Aliejai/AliejaiPages'
 
 const AliejaiPages = () => {
 

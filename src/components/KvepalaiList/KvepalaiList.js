@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const KvepalaiList = ({ data }) => {
   return (
     <ul>
-        {data.map(kvepalas => <li key={kvepalas.id}><Link to="/kvepalas">{kvepalas.pavadinimas}</Link></li>)} 
+        {data.map(kvepalas => <li key={kvepalas.id}><Link to={`/kvepalas/${kvepalas.id}`}>{kvepalas.pavadinimas} <p> <span>Kaina:</span>{" "} {kvepalas.kaina} </p></Link></li>)} 
     </ul>
   )
 }

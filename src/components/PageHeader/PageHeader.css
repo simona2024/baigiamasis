@@ -1,3 +1,54 @@
 a.active {
-    color: blue;
+    color: rgb(14, 205, 230);
 }
+
+body, ul, li {
+    margin: 10;
+    padding: 10;
+  }
+  
+  header {
+    background-color: #333; 
+    font-family: Arial, sans-serif;
+    
+  }
+
+  nav {
+    padding: 20px;
+}
+  
+  nav ul {
+    list-style-type: none; 
+  }
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+    padding: 20px;
+  }
+  
+  nav ul li ul {
+    display: none; 
+    position: absolute;
+    background-color: #444; 
+    padding: 30px; 
+  }
+  
+  nav ul li:hover ul {
+    display: block; 
+  }
+  
+  nav ul li ul li {
+    display: block; 
+    margin-right: 0; 
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px; 
+  }
+  
+  nav ul li a:hover {
+    color: #ff0; 
+  }

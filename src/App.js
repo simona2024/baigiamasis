@@ -22,14 +22,13 @@ const App = () => {
           <Route path='/' element={<h1>Kosmetika</h1>} />
           <Route path='/nagai' element={<NagaiPages />} />
           <Route path='/plaukai' element={<PlaukaiPages />} /> 
-          <Route path='/plaukai/categories/:id' element={<PlaukaiPages />} /> 
           <Route path='/nagai' element={<NagaiPages />} />
           <Route path='/kremai' element={<KremaiPages />} />
           <Route path='/kvepalai' element={<KvepalaiPages />} />
-          <Route path='/kvepalas' element={<KvepalasPages />} />
-          <Route path='/lakas' element={<LakasPages />} />
-          <Route path='/kremas' element={<KremasPages />} />
-          <Route path='/priemone' element={<PriemonePages />} />
+          <Route path='/kvepalas/:id' element={<KvepalasPages />} />
+          <Route path='/lakas/:id' element={<LakasPages />} />
+          <Route path='/kremas/:id' element={<KremasPages />} />
+          <Route path='/priemone/:id' element={<PriemonePages />} />
           <Route path='/sampunai' element={<SampunaiPages />} />
           <Route path='/balzamai' element={<BalzamaiPages />} />
           <Route path='/aliejai' element={<AliejaiPages />} />
