@@ -8,6 +8,10 @@ import PageHeader from './components/PageHeader/PageHeader'
 import LakasPages from './Pages/NaguLakas/LakasPages'
 import KremaiPages from './Pages/Kremai/KremaiPages'
 import KremasPages from './Pages/Kremas/KremasPages'
+import PriemonePages from './Pages/PlaukuPriemne/PriemonePages'
+import SampunaiPages from './Pages/Sampunai/SampunaiPages'
+import BalzamaiPages from './Pages/Balzamai/BalzamaiPages'
+import AliejaiPages from './Pages/Aliejai/AliejaiPages'
 
 const App = () => {
   return (
@@ -24,6 +28,10 @@ const App = () => {
           <Route path='/kvepalas' element={<KvepalasPages />} />
           <Route path='/lakas' element={<LakasPages />} />
           <Route path='/kremas' element={<KremasPages />} />
+          <Route path='/priemone' element={<PriemonePages />} />
+          <Route path='/sampunai' element={<SampunaiPages />} />
+          <Route path='/balzamai' element={<BalzamaiPages />} />
+          <Route path='/aliejai' element={<AliejaiPages />} />
           <Route path='*' element={<h1>404 page not found</h1>} />
       </Routes> 
   </>

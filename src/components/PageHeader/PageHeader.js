@@ -11,6 +11,17 @@ const PageHeader = () => {
             </li>
             <li>
             <NavLink to="/plaukai">Plaukai</NavLink>
+                <ul>
+                    <li>
+                        <NavLink to="/sampunai">Šampunai</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/balzamai">Balzamaii</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/aliejai">Aliejai</NavLink>
+                    </li>
+                </ul>
             </li>
             <li>
             <NavLink to="/nagai">Nagai</NavLink>
@@ -20,8 +31,6 @@ const PageHeader = () => {
             </li>
             <li>
             <NavLink to="/kvepalai">Kvepalai</NavLink>
-            
-                {/* <NavLink to="/kvepalai/kvepalas">Kvepalas</NavLink> */}
             
             </li>
         </ul>
