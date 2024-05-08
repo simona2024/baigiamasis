@@ -13,7 +13,7 @@ const KremasPages = () => {
                 const res = await fetch(`http://localhost:3000/kremai/${id}`);
                 const data = await res.json();
                 setKremas(data);
-                setEditedKremas(data); // Nustatyti pradinę reikšmę redaguojamam kremui
+                setEditedKremas(data); 
             } catch (error) {
                 console.error('Klaida gaunant kremą:', error);
             }
@@ -53,7 +53,7 @@ const KremasPages = () => {
             });
             if (res.ok) {
                 console.log('Kremas sėkmingai atnaujintas.');
-                setEditing(false); // Baigti redagavimą po sėkmingo atnaujinimo
+                setEditing(false); 
             } else {
                 console.error('Įvyko klaida atnaujinant kremą.');
             }
