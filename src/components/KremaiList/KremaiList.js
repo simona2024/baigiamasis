@@ -4,8 +4,8 @@ import './KremaiList.css'
 
 const KremaiList = ({ data }) => {
   return (
-    <ul>
-        {data.map(kremas => <li key={kremas.id}><Link to={`/kremas/${kremas.id}`}>{kremas.pavadinimas} <p> <span>Kaina:</span>{" "} {kremas.kaina} </p></Link></li>)} 
+    <ul className='list'>
+        {data.map(kremas => <li className='item' key={kremas.id}><Link to={`/kremas/${kremas.id}`}>{kremas.pavadinimas} <p> <span className='price'>Kaina:</span>{" "} {kremas.kaina} </p></Link></li>)} 
     </ul>
   )
 }

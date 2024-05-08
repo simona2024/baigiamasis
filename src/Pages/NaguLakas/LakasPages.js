@@ -86,15 +86,16 @@ const LakasPages = () => {
                     <button type="submit">Atnaujinti laką</button>
                 </form>
             ) : (
-                <div>
-                    <h1>{pavadinimas}</h1>
-                    <span>{gamintojas}</span>
-                    <p>{aprasymas}</p>
-                    <span>{kaina}</span>
-                    <button onClick={() => setEditing(true)}>Redaguoti</button>
+                <div className='prekes-card'>
+                    <h1 className='prekes-h1'>{pavadinimas}</h1>
+                    <span className='prekes-span'>{gamintojas}</span>
+                    <p className='prekes-p'>{aprasymas}</p>
+                    <span className='price'>{kaina}</span>
+                    <button className='prekes-button' onClick={() => setEditing(true)}>Redaguoti</button>
+                    <button className='prekes-button' onClick={deleteHandler}>Ištrinti Laką</button>
                 </div>
             )}
-            <button onClick={deleteHandler}>Ištrinti Laką</button>
+            
         </div>
     );
 };

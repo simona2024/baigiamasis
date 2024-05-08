@@ -18,11 +18,11 @@ const PriemonePages = () => {
       const { pavadinimas, gamintojas, aprasymas, kaina} = priemone
     
   return (
-    <div>
-        <h1>{pavadinimas}</h1>
-        <span>{gamintojas}</span>
-        <p>{aprasymas}</p>
-        <span>{kaina}</span>
+    <div className='prekes-card'>
+        <h1 className='prekes-h1'>{pavadinimas}</h1>
+        <span className='prekes-span'>{gamintojas}</span>
+        <p className='prekes-p'>{aprasymas}</p>
+        <span className='price'>{kaina}</span>
     </div>
   )
 }

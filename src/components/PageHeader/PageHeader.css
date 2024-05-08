@@ -13,7 +13,7 @@ body, ul, li {
   }
   
   header {
-    background-color: #c0bcbc; 
+    background-color: #df9de1; 
     font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
@@ -36,9 +36,8 @@ body, ul, li {
   
   nav ul li ul {
     display: none; 
-    /* position: absolute; */
-    background-color: #444; 
-    padding: 10px; 
+    background-color: #d70cee; 
+    padding: 5px; 
   }
   
   nav ul li:hover ul {
@@ -57,7 +56,7 @@ body, ul, li {
   }
   
   nav ul li a:hover {
-    color: #ff0; 
+    color: rgb(72, 255, 0); 
   }
 
   .contacts {

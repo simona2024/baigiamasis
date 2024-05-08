@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 
 const NagaiList = ({ data }) => {
   return (
-    <ul>
-        {data.map(lakas => <li key={lakas.id}><Link to={`/lakas/${lakas.id}`}>{lakas.pavadinimas} <p> <span>Kaina:</span>{" "} {lakas.kaina} </p>
+    <ul className="list">
+        {data.map(lakas => <li className="item" key={lakas.id}><Link className='name' to={`/lakas/${lakas.id}`}>{lakas.pavadinimas} <p> <span className='price'>Kaina:</span>{" "} {lakas.kaina} </p>
         </Link></li>)} 
         
         
     </ul>
+    
 
   )
 }

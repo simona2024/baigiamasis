@@ -89,13 +89,13 @@ const KvepalasPages = () => {
                     <button type="submit">Išsaugoti pakeitimus</button>
                 </form>
             ) : (
-                <div>
-                    <h1>{kvepalas.pavadinimas}</h1>
-                    <span>{kvepalas.gamintojas}</span>
-                    <p>{kvepalas.aprasymas}</p>
-                    <span>{kvepalas.kaina}</span>
-                    <button onClick={() => setIsEditing(true)}>Redaguoti Kvepalą</button>
-                    <button onClick={handleDelete}>Ištrinti Kvepalą</button>
+                <div className='prekes-card'>
+                    <h1 className='prekes-h1'>{kvepalas.pavadinimas}</h1>
+                    <span className='prekes-span'>{kvepalas.gamintojas}</span>
+                    <p className='prekes-p'>{kvepalas.aprasymas}</p>
+                    <span className='price'>{kvepalas.kaina}</span>
+                    <button className='prekes-button' onClick={() => setIsEditing(true)}>Redaguoti Kvepalą</button>
+                    <button className='prekes-button' onClick={handleDelete}>Ištrinti Kvepalą</button>
                 </div>
             )}
         </div>

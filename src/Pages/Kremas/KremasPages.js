@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './KremasPages.css'
 
 const KremasPages = () => {
     const { id } = useParams();
@@ -13,7 +14,7 @@ const KremasPages = () => {
                 const res = await fetch(`http://localhost:3000/kremai/${id}`);
                 const data = await res.json();
                 setKremas(data);
-                setEditedKremas(data); 
+                setEditedKremas(data); // Nustatyti pradinę reikšmę redaguojamam kremui
             } catch (error) {
                 console.error('Klaida gaunant kremą:', error);
             }
@@ -53,7 +54,7 @@ const KremasPages = () => {
             });
             if (res.ok) {
                 console.log('Kremas sėkmingai atnaujintas.');
-                setEditing(false); 
+                setEditing(false); // Baigti redagavimą po sėkmingo atnaujinimo
             } else {
                 console.error('Įvyko klaida atnaujinant kremą.');
             }
@@ -79,15 +80,16 @@ const KremasPages = () => {
                     <button type="submit">Patvirtinti Redagavimą</button>
                 </form>
             ) : (
-                <div>
-                    <h1>{pavadinimas}</h1>
-                    <span>{gamintojas}</span>
-                    <p>{aprasymas}</p>
-                    <span>{kaina}</span>
-                    <button onClick={() => setEditing(true)}>Redaguoti</button>
+                <div className='prekes-card'>
+                    <h1 className='prekes-h1'>{pavadinimas}</h1>
+                    <span className='prekes-span'>{gamintojas}</span>
+                    <p className='prekes-p'>{aprasymas}</p>
+                    <span className='price'>{kaina}</span>
+                    <button className='prekes-button' onClick={() => setEditing(true)}>Redaguoti</button>
+                    <button className='prekes-button' onClick={deleteHandler}>Ištrinti Kremą</button>
                 </div>
             )}
-            <button onClick={deleteHandler}>Ištrinti Kremą</button>
+            
         </div>
     );
 };

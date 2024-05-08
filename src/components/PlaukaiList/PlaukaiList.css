@@ -1,4 +1,4 @@
-ul.plaukai-list {
+ul.list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,7 +10,7 @@ ul.plaukai-list {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
   }
-  li.plaukai-item {
+  li.item {
     border-style: groove;
     border-radius: 20px;
     padding: 20px;
