@@ -1,6 +1,11 @@
 a.active {
     color: rgb(8, 172, 71);
 }
+a {
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
 
 body, ul, li {
     margin: 10;
@@ -54,3 +59,24 @@ body, ul, li {
   nav ul li a:hover {
     color: #ff0; 
   }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+    margin-right: 50px;
+}
+.call {
+    
+        border-radius: 30px;
+        color: green;
+        background-color: yellow;
+        font-size: 20px;
+        padding: 10px 10px 10px;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+}  

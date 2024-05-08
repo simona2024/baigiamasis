@@ -36,6 +36,13 @@
       "gamintojas": "Hugo Boos",
       "aprasymas": "Hugo Boss Femme EDP kvepalai moterims",
       "kaina": 36.56
+    },
+    {
+      "id": "438a",
+      "pavadinimas": "alvin Klein CK IN2U ",
+      "gamintojas": "alvin Klein ",
+      "aprasymas": "Hugo Boss Femme EDP kvepalai moterims",
+      "kaina": 21.99
     }
   ],
   "kremai": [
@@ -92,15 +99,7 @@
       "pavadinimas": "Gilių raukšlių veido kremas su retinoliu",
       "gamintojas": "RetinolRevive",
       "aprasymas": "Šis gilių raukšlių veido kremas su retinoliu stimuliuoja odos ląstelių atsinaujinimą, padeda sumažinti raukšles ir pagerina odos struktūrą.",
-      "kaina": 32.99,
-      "kategorija": "Veido priemonės"
-    },
-    {
-      "id": "7",
-      "pavadinimas": "Drėkinantis veido kremas su aloe vera",
-      "gamintojas": "AloeGlow",
-      "aprasymas": "Šis drėkinantis veido kremas su aloe vera suteikia odai gaivumą ir drėkinimą, padeda sumažinti dirginimą ir odos sausumą.",
-      "kaina": 20.49,
+      "kaina": "32.22",
       "kategorija": "Veido priemonės"
     }
   ],
@@ -110,7 +109,7 @@
       "pavadinimas": "Švelnus nagų stiprintuvas su avokadų aliejumi",
       "gamintojas": "AvocadoNails",
       "aprasymas": "Šis nagų stiprintuvas su avokadų aliejumi suteikia nagams papildomos mitybos, padeda stiprinti jų struktūrą ir saugo nuo skilimo.",
-      "kaina": 8.99,
+      "kaina": "18.99",
       "kategorija": "Nagų priemonės"
     },
     {
@@ -126,88 +125,22 @@
       "pavadinimas": "Nagų aliejus su vitaminu E",
       "gamintojas": "VitaminENails",
       "aprasymas": "Šis nagų aliejus su vitaminu E maitina ir stiprina nagus, padeda kovoti su sausumu ir lūžinėjimu, paliekant nagus minkštus ir lankstius.",
-      "kaina": 10.99,
+      "kaina": "10",
       "kategorija": "Nagų priemonės"
     },
     {
-      "id": "2f23",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
+      "id": "28a4",
+      "pavadinimas": "test1",
+      "gamintojas": "test1",
+      "aprasymas": "test1",
+      "kaina": 5
     },
     {
-      "id": "6707",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "db2e",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "c31d",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "ce6a",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "df6c",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "fdb8",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "2e9e",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "7dc4",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
-    },
-    {
-      "id": "07ff",
-      "pavadinimas": "lakas",
-      "gamintojas": "nail",
-      "aprasymas": "stiprimasisi",
-      "kaina": 12.89,
-      "kategorija": "Nagų priemonės"
+      "id": "8434",
+      "pavadinimas": "Lakas",
+      "gamintojas": "Lakas",
+      "aprasymas": "lakas",
+      "kaina": "2.9"
     }
   ],
   "hairProducts": [

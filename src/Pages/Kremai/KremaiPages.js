@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { API_URL } from "../../config"
 import { Link } from 'react-router-dom'
 import KremaiList from '../../components/KremaiList/KremaiList'
+import './KremaiPages.css'
 
 const KremaiPages = () => {
 
@@ -19,15 +20,14 @@ const KremaiPages = () => {
   }, []);
 
   return (
-    <div>
-
+    <div className="container">
       <h1>Kremai</h1>
-
-      <KremaiList data={kremai} />
-
-      
+      <div className="kremai-list">
+        <KremaiList data={kremai} />
+      </div>
     </div>
+  );
+};
 
-  )
-}
+  
 export default KremaiPages

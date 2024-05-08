@@ -13,6 +13,10 @@ import SampunaiPages from './Pages/Sampunai/SampunaiPages'
 import BalzamaiPages from './Pages/Balzamai/BalzamaiPages'
 import AliejaiPages from './Pages/Aliejai/AliejaiPages'
 import SukurtiPriemone from './Pages/SukurtiPriemone/SukurtiPriemone'
+import SukurtiNagus from './Pages/SukurtiNagus/SukurtiNagus'
+import SukurtiKrema from './Pages/SukurtiKrema/SukurtiKrema'
+import Homepages from './Pages/HomePages/Homepages'
+import Galeria from './Pages/Galeria/Galeria'
 
 const App = () => {
   return (
@@ -20,7 +24,7 @@ const App = () => {
   <>
       <PageHeader />
       <Routes>
-          <Route path='/' element={<h1>Kosmetika</h1>} />
+          <Route path='/' element={<Homepages />} />
           <Route path='/nagai' element={<NagaiPages />} />
           <Route path='/plaukai' element={<PlaukaiPages />} /> 
           <Route path='/nagai' element={<NagaiPages />} />
@@ -34,6 +38,9 @@ const App = () => {
           <Route path='/balzamai' element={<BalzamaiPages />} />
           <Route path='/aliejai' element={<AliejaiPages />} />
           <Route path='/sukurti-priemone' element={<SukurtiPriemone />} />
+          <Route path='/sukurti-nagus' element={<SukurtiNagus />} />
+          <Route path='/sukurti-krema' element={<SukurtiKrema />} />
+          <Route path='/galerija' element={<Galeria />} />
           <Route path='*' element={<h1>404 page not found</h1>} />
       </Routes> 
   </>
