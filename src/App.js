@@ -12,6 +12,7 @@ import PriemonePages from './Pages/PlaukuPriemne/PriemonePages'
 import SampunaiPages from './Pages/Sampunai/SampunaiPages'
 import BalzamaiPages from './Pages/Balzamai/BalzamaiPages'
 import AliejaiPages from './Pages/Aliejai/AliejaiPages'
+import SukurtiPriemone from './Pages/SukurtiPriemone/SukurtiPriemone'
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path='/sampunai' element={<SampunaiPages />} />
           <Route path='/balzamai' element={<BalzamaiPages />} />
           <Route path='/aliejai' element={<AliejaiPages />} />
+          <Route path='/sukurti-priemone' element={<SukurtiPriemone />} />
           <Route path='*' element={<h1>404 page not found</h1>} />
       </Routes> 
   </>

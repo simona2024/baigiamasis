@@ -1,5 +1,5 @@
 a.active {
-    color: rgb(14, 205, 230);
+    color: rgb(8, 172, 71);
 }
 
 body, ul, li {
@@ -8,9 +8,11 @@ body, ul, li {
   }
   
   header {
-    background-color: #333; 
+    background-color: #c0bcbc; 
     font-family: Arial, sans-serif;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   nav {
@@ -29,9 +31,9 @@ body, ul, li {
   
   nav ul li ul {
     display: none; 
-    position: absolute;
+    /* position: absolute; */
     background-color: #444; 
-    padding: 30px; 
+    padding: 10px; 
   }
   
   nav ul li:hover ul {
