@@ -3,7 +3,7 @@ a.active {
 }
 a {
     text-decoration: none;
-    color: green;
+    color: rgb(36, 39, 36);
     cursor: pointer;
 }
 
@@ -69,7 +69,7 @@ body, ul, li {
 .call {
     
         border-radius: 30px;
-        color: green;
+        color: rgb(54, 57, 54);
         background-color: yellow;
         font-size: 20px;
         padding: 10px 10px 10px;
@@ -79,3 +79,12 @@ body, ul, li {
         cursor: pointer;
         border: none;
 }  
+
+@media screen and (max-width: 768px) {
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+}
