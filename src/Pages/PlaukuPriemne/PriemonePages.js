@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import Card from '../../components/CardStyle/Card';
 
 const PriemonePages = () => {
     const {id} = useParams()
@@ -18,12 +19,15 @@ const PriemonePages = () => {
       const { pavadinimas, gamintojas, aprasymas, kaina} = priemone
     
   return (
-    <div className='prekes-card'>
-        <h1 className='prekes-h1'>{pavadinimas}</h1>
-        <span className='prekes-span'>{gamintojas}</span>
-        <p className='prekes-p'>{aprasymas}</p>
-        <span className='price'>{kaina}</span>
-    </div>
+    <Card>
+        <div className='prekes-card'>
+            <h1 className='prekes-h1'>{pavadinimas}</h1>
+            <span className='prekes-span'>{gamintojas}</span>
+            <p className='prekes-p'>{aprasymas}</p>
+            <span className='price'>{kaina}</span>
+        </div>
+    </Card>
+        
   )
 }
 

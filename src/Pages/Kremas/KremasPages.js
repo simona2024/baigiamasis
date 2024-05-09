@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './KremasPages.css'
+import Card from '../../components/CardStyle/Card';
 
 const KremasPages = () => {
     const { id } = useParams();
@@ -14,7 +15,7 @@ const KremasPages = () => {
                 const res = await fetch(`http://localhost:3000/kremai/${id}`);
                 const data = await res.json();
                 setKremas(data);
-                setEditedKremas(data); // Nustatyti pradinę reikšmę redaguojamam kremui
+                setEditedKremas(data); 
             } catch (error) {
                 console.error('Klaida gaunant kremą:', error);
             }
@@ -54,7 +55,7 @@ const KremasPages = () => {
             });
             if (res.ok) {
                 console.log('Kremas sėkmingai atnaujintas.');
-                setEditing(false); // Baigti redagavimą po sėkmingo atnaujinimo
+                setEditing(false); 
             } else {
                 console.error('Įvyko klaida atnaujinant kremą.');
             }
@@ -66,8 +67,10 @@ const KremasPages = () => {
     const { pavadinimas, gamintojas, aprasymas, kaina } = kremas;
 
     return (
-        <div>
+        <Card>
             {editing ? (
+                
+
                 <form onSubmit={handleSubmit}>
                     <label>Pavadinimas: </label>
                     <input type="text" name="pavadinimas" value={editedKremas.pavadinimas} onChange={handleChange} /><br />
@@ -79,6 +82,7 @@ const KremasPages = () => {
                     <input type="text" name="kaina" value={editedKremas.kaina} onChange={handleChange} /><br />
                     <button type="submit">Patvirtinti Redagavimą</button>
                 </form>
+                
             ) : (
                 <div className='prekes-card'>
                     <h1 className='prekes-h1'>{pavadinimas}</h1>
@@ -90,7 +94,7 @@ const KremasPages = () => {
                 </div>
             )}
             
-        </div>
+        </Card>
     );
 };
 

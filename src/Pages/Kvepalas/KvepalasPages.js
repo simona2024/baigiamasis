@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import Card from '../../components/CardStyle/Card';
 
 const KvepalasPages = () => {
     const navigate = useNavigate();
@@ -67,7 +68,7 @@ const KvepalasPages = () => {
     };
 
     return (
-        <div>
+        <Card>
             {isEditing ? (
                 <form onSubmit={handleSubmit}>
                     <div>
@@ -98,7 +99,7 @@ const KvepalasPages = () => {
                     <button className='prekes-button' onClick={handleDelete}>Ištrinti Kvepalą</button>
                 </div>
             )}
-        </div>
+        </Card>
     );
 };
 

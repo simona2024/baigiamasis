@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Card from '../../components/CardStyle/Card';
 
 const LakasPages = () => {
     const { id } = useParams();
@@ -72,7 +73,7 @@ const LakasPages = () => {
     const { pavadinimas, gamintojas, aprasymas, kaina } = lakas;
 
     return (
-        <div>
+        <Card>
             {editing ? (
                 <form onSubmit={handleSubmit}>
                     <label>Pavadinimas: </label>
@@ -96,7 +97,7 @@ const LakasPages = () => {
                 </div>
             )}
             
-        </div>
+        </Card>
     );
 };
 
